@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- username password gender country phone age dob -->
+     <form >
+        <div class="flex align-items-center justify-between"><label>Username :</label>
+            <input type="text" required placeholder="Enter username" class="w-full"></div>
+        <label for="">Password :</label>
+        <input type="password" required><br>
+        <div class="flex align-items-center justify-between"><label for=""> Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Others
+            <br></div>
+
+
+        <label for="">Country :</label>
+        <select>
+            <option value="">Pakistan</option>
+            <option value="nepal">Nepal</option>
+            <option value="">Australia</option>
+            
+
+        </select>
+        <br>
+        <label for="">Occupation :</label>
+        <input type="checkbox">Student
+        <input type="checkbox">Electricician
+        <br>
+        <label for=""> Phone :</label>
+        <input type="number"><br>
+        <label for="">Age :</label>
+        <input type="number"><br>
+        <label for="">Dob :</label>
+        <input type="date">
+     </form>
+</body>
+</html>
